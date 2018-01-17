@@ -29,6 +29,7 @@ function addContact() {
 
 function delContact() {
 
+  tableShow.deleteRow(1);
 
 }
 btnAdd.addEventListener('click', addContact);

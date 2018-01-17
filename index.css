@@ -2,9 +2,9 @@
   margin-top: 15px;
 }
 
-body {
-  padding-left: 450px;
-  background-color: #696969;
+html {
+  display: flex;
+  justify-content: center;
 }
 
 #table-show {
