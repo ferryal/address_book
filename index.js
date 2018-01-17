@@ -20,11 +20,13 @@ function addContact() {
   var cel1 = row.insertCell(0);
   var cel2 = row.insertCell(1);
   var cel3 = row.insertCell(2);
+  var cel4 = row.insertCell(3);
 
 
   cel1.innerHTML = curfullname;
   cel2.innerHTML = curphone;
   cel3.innerHTML = curaddress;
+  cel4.innerHTML = `<button class="btn btn-danger btn-sm">delete</button>`;
 }
 
 function delContact() {
